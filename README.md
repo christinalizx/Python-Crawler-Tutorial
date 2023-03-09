@@ -36,3 +36,9 @@ pip install --upgrade requests
 |  Restrictions on data type | Only ASCII characters allowed         |  No restriction  |
 |  Security                  | GET is less secure compared to POST because data sent is part of the URL <br> Never use GET when sending passwords or other sensitive information!         |POST is a little safer than GET because the parameters are not stored in browser history or in web server logs     |
 | Visibility                   |  Data is visible to everyone in the URL        | Data is not displayed in the URL     |
+
+
+3. HTTP status codes
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+HTTP stands for Hypertext Transfer Protocol. Note that normally we don't need to type http or https to access a website through our browser, but when it comes to writting a crawler, we have to include them at the front of the websites we want to access.
