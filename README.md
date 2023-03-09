@@ -22,7 +22,7 @@ or to upgrade
 pip install --upgrade requests
 ```
 
-2. GET//POST
+2. GET or POST
 
 
 |                    | GET      | POST |
