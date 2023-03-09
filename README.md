@@ -39,6 +39,7 @@ pip install --upgrade requests
 
 
 3. HTTP status codes
+
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 HTTP stands for Hypertext Transfer Protocol. Note that normally we don't need to type http or https to access a website through our browser, but when it comes to writting a crawler, we have to include them at the front of the websites we want to access.
