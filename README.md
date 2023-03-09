@@ -8,7 +8,7 @@ Language used: Python
 Libraries: requests
 
 ### Starters ###
-1. Installing requests
+1. Install requests
 
 ```text
 pip install requests
