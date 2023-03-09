@@ -5,7 +5,7 @@ This is created to record my learning of web crawler using Python. Everything I'
 ### Basic Information ###
 Language used: Python
 
-Libraries: requests
+Libraries: requests, Beautiful Soup
 
 ### Starters ###
 1. Install requests
@@ -21,7 +21,7 @@ or to upgrade
 ```text
 pip install --upgrade requests
 ```
-
+The basic sample use of requests is written in [basic.py].
 2. GET or POST
 
 
@@ -94,3 +94,4 @@ There are a lot more html labels than above, a more concrete version of html sam
 [try.html]: try.html
 [outcome]: htmloutcome.png
 [demo.html]: demo.html
+[basic.py]: basic.py
