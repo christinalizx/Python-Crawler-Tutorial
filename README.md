@@ -86,8 +86,11 @@ You can try to write a html file by creating a .html file, and open it in your b
 [try.html] This is the code I wrote. And this is what it looks like:
 ![outcome]
 
-headers can go all the way upto h6. As the number grows, the size of the font will be smaller. But the font size can be changed through CSS.
+Headers can go all the way upto h6. As the number grows, the size of the font will be smaller. But the font size can be changed through CSS.
+
+There are a lot more html labels than above, a more concrete version of html sample can be seen in [demo.html].
 
 <!-- auto references -->
 [try.html]: try.html
 [outcome]: htmloutcome.png
+[demo.html] demo.html
