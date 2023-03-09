@@ -45,6 +45,9 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 HTTP stands for Hypertext Transfer Protocol. Note that normally we don't need to type http or https to access a website through our browser, but when it comes to writting a crawler, we have to include them at the front of the websites we want to access.
 
 ### HTML ###
+
+Note that CSS is a style sheet language used to shape the HTML elements that will be displayed in the browsers as a web-page. JavaScript is a lightweight, cross-platform, and interpreted scripting language. JavaScript can be used for Client-side developments as well as Server-side developments (https://www.geeksforgeeks.org/difference-between-css-and-javascript/). As our aim here is to write a crawler-program, these info will not be covered.
+
 ```text
 <!DOCTYPE HTML>
 <html>
@@ -81,7 +84,10 @@ The start label and the end label are the roots of the html, all the other eleme
 You can try to write a html file by creating a .html file, and open it in your browser.
 
 [try.html] This is the code I wrote. And this is what it looks like:
+![outcome]
 
+headers can go all the way upto h6. As the number grows, the size of the font will be smaller. But the font size can be changed through CSS.
 
 <!-- auto references -->
 [try.html]: try.html
+[outcome]: htmloutcome.png
