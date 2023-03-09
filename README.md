@@ -22,15 +22,16 @@ pip install --upgrade requests
 ```
 
 2. GET//POST
-|                             | GET                                                                                                                                         | POST                                                                                                           |   |   |   |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|---|---|---|
-| BACK button/Reload          | Harmless                                                                                                                                    | Data will be re-submitted (the browser should alert the user that the data are about to be re-submitted)       |   |   |   |
-| Bookmarked                  | Can be bookmarked                                                                                                                           | Cannot be bookmarked                                                                                           |   |   |   |
-| Cached                      | Can be cached                                                                                                                               | Not cached                                                                                                     |   |   |   |
-| Encoding type               | application/x-www-form-urlencoded                                                                                                           | application/x-www-form-urlencoded or multipart/form-data. Use multipart encoding for binary data               |   |   |   |
-| History                     | Parameters remain in browser history                                                                                                        | Parameters are not saved in browser history                                                                    |   |   |   |
-| Restrictions on data length | Yes, when sending data, the GET method adds the data to the URL; and the length of a URL is limited (maximum URL length is 2048 characters) | No restrictions                                                                                                |   |   |   |
-| Restrictions on data type   | Only ASCII characters allowed                                                                                                               | No restrictions. Binary data is also allowed                                                                   |   |   |   |
-| Security                    | GET is less secure compared to POST because data sent is part of the URL                                                                    | POST is a little safer than GET because the parameters are not stored in browser history or in web server logs |   |   |   |
-|                             | Never use GET when sending passwords or other sensitive information!                                                                        |                                                                                                                |   |   |   |
-| Visibility                  | Data is visible to everyone in the URL                                                                                                      | Data is not displayed in the URL                                                                               |   |   |   |
+
+
+|                    | GET      | POST |
+|--------------------|------------------------------------------------------------|--------------------------------------------------------------------------------|
+| BACK button/Reload | Harmless |Data will be re-submitted (the browser should alert the user that the data are about to be re-submitted)|
+| Bookmarked         | Can be bookmarked |   Cannot be bookmarked   |
+| Cached             | Can be cached | Not cached |
+| Encoding type      |application/x-www-form-urlencoded| application/x-www-form-urlencoded or multipart/form-data. Use multipart encoding for binary data|
+| History            |	Parameters remain in browser history |   	Parameters are not saved in browser history   |
+| Restrictions on data length  | Yes, when sending data, the GET method adds the data to the URL; and the length of a URL is limited (maximum URL length is 2048 characters)         | No restriction  |
+|  Restrictions on data type | Only ASCII characters allowed         |  No restriction  |
+|  Security                  | GET is less secure compared to POST because data sent is part of the URL <br> Never use GET when sending passwords or other sensitive information!         |POST is a little safer than GET because the parameters are not stored in browser history or in web server logs     |
+| Visibility                   |  Data is visible to everyone in the URL        | Data is not displayed in the URL     |
