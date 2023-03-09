@@ -93,4 +93,4 @@ There are a lot more html labels than above, a more concrete version of html sam
 <!-- auto references -->
 [try.html]: try.html
 [outcome]: htmloutcome.png
-[demo.html] demo.html
+[demo.html]: demo.html
