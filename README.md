@@ -80,3 +80,8 @@ The start label and the end label are the roots of the html, all the other eleme
 ```
 You can try to write a html file by creating a .html file, and open it in your browser.
 
+[try.html] This is the code I wrote. And this is what it looks like:
+
+
+<!-- auto references -->
+[try.html]: try.html
