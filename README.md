@@ -43,3 +43,40 @@ pip install --upgrade requests
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 HTTP stands for Hypertext Transfer Protocol. Note that normally we don't need to type http or https to access a website through our browser, but when it comes to writting a crawler, we have to include them at the front of the websites we want to access.
+
+### HTML ###
+```text
+<!DOCTYPE HTML>
+<html>
+</html>
+```
+Everything within the brackets here can be a piece of HTML label.
+
+```text
+<!DOCTYPE HTML>
+```
+This label tells us that the data type is html.
+
+```text
+<html>
+```
+This marks the start of the html.
+
+```text
+</html>
+```
+This marks the end of the html.
+
+The start label and the end label are the roots of the html, all the other elements have to be in between of these two.
+
+```text
+<!DOCTYPE HTML>
+<html>
+  <body>
+    <h1> first-level header </h1>
+    <p> text paragraph </p>
+  </body>
+</html>
+```
+You can try to write a html file by creating a .html file, and open it in your browser.
+
