@@ -2,6 +2,8 @@
 
 This is created to record my learning of web crawler using Python. Everything I've learned will be recorded here, I hope that at the end of my learning process, this can be a tutorial that will also be helpful to others such as beginners or seniors who want to review what they've studied before.
 
+If you have any suggestion or correction, feel free to reach me. Thank you!!
+
 ### Basic Information ###
 Language used: Python
 
@@ -53,7 +55,7 @@ The sample of using Beautiful Soup can be seen in [bs_sample.py].
 | Visibility                   |  Data is visible to everyone in the URL        | Data is not displayed in the URL     |
 
 
-3. HTTP status codes
+4. HTTP status codes
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
