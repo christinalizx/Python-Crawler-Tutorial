@@ -22,7 +22,22 @@ or to upgrade
 pip install --upgrade requests
 ```
 The basic sample use of requests is written in [basic.py].
-2. GET or POST
+
+2. Install Beautiful Soup
+
+```text
+pip install beautifulsoup4
+```
+
+For MacOS users, the command may be:
+
+```text
+pip3 install beautifulsoup4
+```
+
+The sample of using Beautiful Soup can be seen in [bs_sample.py].
+
+3. GET or POST
 
 
 |                    | GET      | POST |
@@ -95,3 +110,4 @@ There are a lot more html labels than above, a more concrete version of html sam
 [outcome]: htmloutcome.png
 [demo.html]: demo.html
 [basic.py]: basic.py
+[bs_sample.py]: bs_sample.py
